@@ -6,7 +6,7 @@ Application example using [Angular 12](https://angular.io/) and the [ngx-toastr]
 
 [![Website](https://shields.braskam.com/v1/shields?name=website&format=rectangle&size=small)](https://rodrigo.kamada.com.br)
 [![LinkedIn](https://shields.braskam.com/v1/shields?name=linkedin&format=rectangle&size=small)](https://www.linkedin.com/in/rodrigokamada)
-[![Twitter](https://shields.braskam.com/v1/shields?name=twitter&format=rectangle&size=small)](https://twitter.com/rodrigokamada)
+[![Twitter](https://shields.braskam.com/v1/shields?name=twitter&format=rectangle&size=small&socialAccount=rodrigokamada)](https://twitter.com/rodrigokamada)
 
 
 
