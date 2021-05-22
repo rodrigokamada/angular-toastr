@@ -1,6 +1,6 @@
 # Angular Toastr
 
-Application example using [Angular 12](https://angular.io/) and the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) dependency.
+Application example using [Angular 12](https://angular.io/) and the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
 
 
@@ -21,6 +21,7 @@ Application example using [Angular 12](https://angular.io/) and the [ngx-toastr]
 ## Getting started
 
 
+**1.** 
 
 ```shell
 ng new angular-toastr
@@ -54,3 +55,25 @@ CREATE angular-toastr/src/app/app.component.ts (219 bytes)
 ✔ Packages installed successfully.
     Successfully initialized git.
 ```
+
+**2.** 
+
+```shell
+npm install bootstrap
+```
+
+**3.** 
+
+```json
+"styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "src/styles.scss"
+],
+"scripts": [
+  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+]
+```
+
+
+
+
