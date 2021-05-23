@@ -2,6 +2,8 @@
 
 Application example using [Angular 12](https://angular.io/) and the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
+Access using GitHub Pages: [https://rodrigokamada.github.io/angular-toastr/](https://rodrigokamada.github.io/angular-toastr/)
+
 
 
 [![Website](https://shields.braskam.com/v1/shields?name=website&format=rectangle&size=small)](https://rodrigo.kamada.com.br)
@@ -11,6 +13,8 @@ Application example using [Angular 12](https://angular.io/) and the [ngx-toastr]
 
 
 ## Prerequisites
+
+
 
 * [git](https://git-scm.com/)
 * [Node.js and npm](https://nodejs.org/)
@@ -74,6 +78,19 @@ npm install bootstrap
 ]
 ```
 
+**4.** Install the `ngx-toastr` library.
 
+```shell
+npm install ngx-toastr
+```
 
+**5.** Configure the `ngx-toastr` library.
+
+```json
+"styles": [
+  "node_modules/bootstrap/scss/bootstrap.scss",
+  "node_modules/ngx-toastr/toastr.css",
+  "src/styles.scss"
+],
+```
 
