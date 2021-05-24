@@ -2,7 +2,10 @@
 
 Application example using [Angular 12](https://angular.io/) and the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
-Access using GitHub Pages: [https://rodrigokamada.github.io/angular-toastr/](https://rodrigokamada.github.io/angular-toastr/)
+Available in:
+
+* [GitHub Pages](https://rodrigokamada.github.io/angular-toastr/)
+* [Stackblitz](https://stackblitz.com/edit/angular12-toastr)
 
 
 
@@ -94,3 +97,70 @@ npm install ngx-toastr
 ],
 ```
 
+**6.** 
+
+```typescript
+import { ToastrModule } from 'ngx-toastr';
+
+imports: [
+  BrowserModule,
+  ToastrModule.forRoot(),
+  AppRoutingModule,
+],
+```
+
+**7.** 
+
+```typescript
+import { Component } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+})
+export class AppComponent {
+
+  constructor(private toastrService: ToastrService) {
+  }
+
+  public showSuccess(): void {
+    this.toastrService.success('Message Success!', 'Title Success!');
+  }
+
+  public showInfo(): void {
+    this.toastrService.info('Message Info!', 'Title Info!');
+  }
+
+  public showWarning(): void {
+    this.toastrService.warning('Message Warning!', 'Title Warning!');
+  }
+
+  public showError(): void {
+    this.toastrService.error('Message Error!', 'Title Error!');
+  }
+
+}
+```
+
+**8.** 
+
+```html
+<div class="container-fluid py-3">
+  <h1>Angular Toastr</h1>
+
+  <div class="d-grid gap-2 col-4 mx-auto">
+    <button type="button" class="btn btn-sm btn-success" (click)="showSuccess()">Success</button>
+    <button type="button" class="btn btn-sm btn-info" (click)="showInfo()">Info</button>
+    <button type="button" class="btn btn-sm btn-warning" (click)="showWarning()">Warning</button>
+    <button type="button" class="btn btn-sm btn-danger" (click)="showError()">Error</button>
+  </div>
+</div>
+```
+
+**9.** 
+
+```shell
+npm start
+```
