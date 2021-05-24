@@ -63,13 +63,13 @@ CREATE angular-toastr/src/app/app.component.ts (219 bytes)
     Successfully initialized git.
 ```
 
-**2.** 
+**2.** I like to use the CSS [Bootstrap](https://getbootstrap.com/) framework in my applications. So let's install the `bootstrap` library.
 
 ```shell
 npm install bootstrap
 ```
 
-**3.** 
+**3.** Configure the `bootstrap` library. Change the `angular.json` file and add the `bootstrap.scss` and `bootstrap.bundle.min.js` files as follows:
 
 ```json
 "styles": [
@@ -87,7 +87,7 @@ npm install bootstrap
 npm install ngx-toastr
 ```
 
-**5.** Configure the `ngx-toastr` library.
+**5.** Configure the `ngx-toastr` library. Change the `angular.json` file and add the `toastr.css` file as follows:
 
 ```json
 "styles": [
@@ -97,7 +97,7 @@ npm install ngx-toastr
 ],
 ```
 
-**6.** 
+**6.** Import the `ngx-toastr` and `BrowserAnimationsModule` modules. Change the `app.module.ts` file and add the lines below.
 
 ```typescript
 import { ToastrModule } from 'ngx-toastr';
@@ -109,7 +109,7 @@ imports: [
 ],
 ```
 
-**7.** 
+**7.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file and import the service and create the methods as follows:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -144,7 +144,7 @@ export class AppComponent {
 }
 ```
 
-**8.** 
+**8.** Remove the contents of the `src/app/app.component.html` file and add the buttons as follows:
 
 ```html
 <div class="container-fluid py-3">
@@ -159,7 +159,30 @@ export class AppComponent {
 </div>
 ```
 
-**9.** 
+**9.** Run the application with the command:
+
+```shell
+npm start
+```
+
+
+
+## Cloning the application
+
+**1.** Clone the repository.
+
+```shell
+git clone git@github.com:rodrigokamada/angular-toastr.git
+```
+
+**2.** Install the dependencies.
+
+```shell
+npm ci
+```
+
+
+**3.** Run the application.
 
 ```shell
 npm start
