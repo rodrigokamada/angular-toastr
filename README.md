@@ -1,5 +1,6 @@
 # Angular Toastr
 
+
 Application example using [Angular 12](https://angular.io/) and the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
 Available in:
@@ -16,6 +17,7 @@ Available in:
 
 
 ## Prerequisites
+
 
 Before you start, you need to install and configure the tools:
 
@@ -104,6 +106,7 @@ import { ToastrModule } from 'ngx-toastr';
 
 imports: [
   BrowserModule,
+  BrowserAnimationsModule,
   ToastrModule.forRoot(),
   AppRoutingModule,
 ],
