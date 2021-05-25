@@ -30,7 +30,7 @@ Before you start, you need to install and configure the tools:
 ## Getting started
 
 
-**1.** Create an application with the Angular base structure using the @angular/cli com with the route file and the SCSS style format.
+**1.** Create an application with the Angular base structure using the `@angular/cli` com with the route file and the SCSS style format.
 
 ```shell
 ng new angular-toastr
