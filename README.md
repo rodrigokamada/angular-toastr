@@ -106,7 +106,7 @@ imports: [
 ],
 ```
 
-**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `ToastrService` service and create the `showSuccess`, `showInfo`, `showWarning` and `showError` methods as below:
+**6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `ToastrService` service and create the `showSuccess`, `showInfo`, `showWarning` and `showError` methods as below.
 
 ```typescript
 import { Component } from '@angular/core';
@@ -141,7 +141,7 @@ export class AppComponent {
 }
 ```
 
-**7.** Remove the contents of the `src/app/app.component.html` file. Add the buttons as below:
+**7.** Remove the contents of the `src/app/app.component.html` file. Add the buttons as below.
 
 ```html
 <div class="container-fluid py-3">
@@ -156,7 +156,7 @@ export class AppComponent {
 </div>
 ```
 
-**8.** Run the application with the command below:
+**8.** Run the application with the command below.
 
 ```shell
 npm start
