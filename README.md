@@ -78,7 +78,7 @@ CREATE angular-toastr/src/app/app.component.ts (219 bytes)
 npm install ngx-toastr
 ```
 
-**4.** Configure the `ngx-toastr` library. Change the `angular.json` file and add the `toastr.css` file as below:
+**4.** Configure the `ngx-toastr` library. Change the `angular.json` file and add the `toastr.css` file as below.
 
 ```json
 "styles": [
@@ -88,7 +88,7 @@ npm install ngx-toastr
 ],
 ```
 
-**5.** Import the `ngx-toastr` and `BrowserAnimationsModule` modules. Change the `app.module.ts` file and add the lines as below.
+**5.** Import the `BrowserAnimationsModule` and `ToastrModule` modules. Change the `app.module.ts` file and add the lines as below.
 
 ```typescript
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -104,7 +104,6 @@ imports: [
   }),
   AppRoutingModule,
 ],
-
 ```
 
 **6.** Remove the contents of the `AppComponent` class from the `src/app/app.component.ts` file. Import the `ToastrService` service and create the `showSuccess`, `showInfo`, `showWarning` and `showError` methods as below:
