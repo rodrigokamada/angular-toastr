@@ -199,7 +199,6 @@ git clone git@github.com:rodrigokamada/angular-toastr.git
 npm ci
 ```
 
-
 **3.** Run the application.
 
 ```shell
