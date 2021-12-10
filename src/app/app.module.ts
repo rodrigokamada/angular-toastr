@@ -6,10 +6,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-  ],
+@NgModule({xxx
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -21,6 +18,9 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
   ],
   providers: [
+  ],
+  declarations: [
+    AppComponent,
   ],
   bootstrap: [
     AppComponent,
