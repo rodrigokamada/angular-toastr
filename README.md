@@ -1,15 +1,15 @@
 # Angular Toastr
 
 
-Application example built with [Angular 13](https://angular.io/) and adding the notification component using the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
+Application example built with [Angular](https://angular.io/) 13 and adding the notification component using the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-componente-de-notificacao-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-notification-component-to-an-angular-application-28m5) in english.
 
 
 
-[![Website](https://shields.braskam.com/v1/shields?name=website&format=rectangle&size=small)](https://rodrigo.kamada.com.br)
-[![LinkedIn](https://shields.braskam.com/v1/shields?name=linkedin&format=rectangle&size=small)](https://www.linkedin.com/in/rodrigokamada)
-[![Twitter](https://shields.braskam.com/v1/shields?name=twitter&format=rectangle&size=small&socialAccount=rodrigokamada)](https://twitter.com/rodrigokamada)
+[![Website](https://shields.braskam.com/v1/shields?name=website&format=rectangle&size=small&radius=5)](https://rodrigo.kamada.com.br)
+[![LinkedIn](https://shields.braskam.com/v1/shields?name=linkedin&format=rectangle&size=small&radius=5)](https://www.linkedin.com/in/rodrigokamada)
+[![Twitter](https://shields.braskam.com/v1/shields?name=twitter&format=rectangle&size=small&radius=5&socialAccount=rodrigokamada)](https://twitter.com/rodrigokamada)
 
 
 
@@ -179,7 +179,7 @@ Build at: 2021-08-14T12:47:44.417Z - Hash: f001123d671f4d692c5a - Time: 11454ms
 ✔ Compiled successfully.
 ```
 
-**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-toastr/) and [Stackblitz](https://stackblitz.com/edit/angular12-toastr).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-toastr/) and [Stackblitz](https://stackblitz.com/edit/angular13-toastr).
 
 ![Angular Toastr](https://res.cloudinary.com/rodrigokamada/image/upload/v1636895792/Blog/angular-toastr/angular-toastr.png)
 
