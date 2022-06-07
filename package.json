@@ -1,7 +1,7 @@
 {
   "name": "angular-toastr",
   "version": "1.0.0",
-  "description": "Application example built with Angular 13 and adding the notification component using the ngx-toastr library.",
+  "description": "Application example built with Angular 14 and adding the notification component using the ngx-toastr library.",
   "author": "Rodrigo Kamada <rodrigo@kamada.com.br> (https://github.com/rodrigokamada)",
   "license": "MIT",
   "private": true,
