@@ -179,7 +179,7 @@ Build at: 2021-08-14T12:47:44.417Z - Hash: f001123d671f4d692c5a - Time: 11454ms
 ✔ Compiled successfully.
 ```
 
-**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-toastr/) and [Stackblitz](https://stackblitz.com/edit/angular13-toastr).
+**9.** Ready! Access the URL `http://localhost:4200/` and check if the application is working. See the application working on [GitHub Pages](https://rodrigokamada.github.io/angular-toastr/) and [Stackblitz](https://stackblitz.com/edit/angular14-toastr).
 
 ![Angular Toastr](https://res.cloudinary.com/rodrigokamada/image/upload/v1636895792/Blog/angular-toastr/angular-toastr.png)
 
