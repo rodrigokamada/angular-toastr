@@ -1,7 +1,7 @@
 # Angular Toastr
 
 
-Application example built with [Angular](https://angular.io/) 14 and adding the notification component using the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
+Application example built with [Angular](https://angular.io/) 15 and adding the notification component using the [ngx-toastr](https://www.npmjs.com/package/ngx-toastr) library.
 
 This tutorial was posted on my [blog](https://rodrigo.kamada.com.br/blog/adicionando-o-componente-de-notificacao-em-uma-aplicacao-angular) in portuguese and on the [DEV Community](https://dev.to/rodrigokamada/adding-the-notification-component-to-an-angular-application-28m5) in english.
 
